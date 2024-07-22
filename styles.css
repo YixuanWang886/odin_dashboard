@@ -154,8 +154,9 @@ button{
 }
 .card{
     background-color: #ffffff;
-    border-radius: 5%;
+    border-radius: 25px;
     box-shadow: 10px 10px 10px -10px #121f17;
+    box-shadow: inset 8px 0px gray;
     padding: 20px;
     display: flex;
     height: 20vh;
@@ -174,7 +175,8 @@ button{
     margin-bottom: 20px;
 }
 .bottom-right .card{
-    min-height: 50%;
+    box-shadow: none;
+    height: 40%;
 
 }
 .trends{
@@ -183,11 +185,13 @@ button{
     /* gap: 20px; */
 }
 .trends .card{
+    box-shadow: none;
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: space-between;
     align-items: start;
+    height: 40%;
 }
 .trends .card .trend{
     display: flex;
