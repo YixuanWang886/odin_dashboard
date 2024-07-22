@@ -154,9 +154,8 @@ button{
 }
 .card{
     background-color: #ffffff;
-    border-radius: 25px;
-    box-shadow: 10px 10px 10px -10px #121f17;
-    box-shadow: inset 8px 0px gray;
+    border-radius: 10px;
+    border-left: 10px solid #20a5da;
     padding: 20px;
     display: flex;
     height: 20vh;
@@ -178,6 +177,9 @@ button{
     box-shadow: none;
     height: 40%;
 
+}
+button:hover{
+    cursor: pointer;
 }
 .trends{
     display: flex;
